@@ -1,7 +1,7 @@
 pets = []
-
+def cadastrar_pet():
 #cadastrar pet, espécie e cpf do dono
-while True:
+ while True:
         nome = input("Digite o nome do seu pet: ")
         especie = input("Digite a espécie do seu animal: ")
 
@@ -30,5 +30,7 @@ while True:
 
         if continuar == "n":
          break
+cadastrar_pet()
+
 
 
