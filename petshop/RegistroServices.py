@@ -23,7 +23,7 @@ def escolher_servico():
         print("Serviço inválido.")
         return 0
 
-
+#Cria um loop para registrar serviços ate que o usario encerre
 def main():
     total = 0
     opcao = 0
@@ -50,3 +50,4 @@ def main():
 
 
 main()
+
